@@ -28,7 +28,7 @@ public class Anime {
     @ManyToMany
     @JoinTable(name = "authors_animes",
             joinColumns = @JoinColumn(name = "anime_id"),
-            inverseJoinColumns = @JoinColumn(name = "author_id_"))
+            inverseJoinColumns = @JoinColumn(name = "author_id"))
     private List<Author> authors;
     @ManyToMany
     @JoinTable(name = "studios_animes",
