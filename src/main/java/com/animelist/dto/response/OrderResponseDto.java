@@ -1,8 +1,7 @@
 package com.animelist.dto.response;
 
-import lombok.Data;
-
 import java.time.LocalDateTime;
+import lombok.Data;
 
 @Data
 public class OrderResponseDto {
